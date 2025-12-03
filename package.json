@@ -2,11 +2,21 @@
   "name": "cm-3-12-25",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateush997/CM-3-12-25.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mateush997/CM-3-12-25/issues"
+  },
+  "homepage": "https://github.com/mateush997/CM-3-12-25#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
 }
