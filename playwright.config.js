@@ -50,6 +50,14 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
+    {
+      name: 'codeme',
+      use: {
+        ...devices['Desktop Chrome'],
+        baseURL: 'https://codeme.pl'
+      }
+    },
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
